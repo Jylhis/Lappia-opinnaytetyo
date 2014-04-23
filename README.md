@@ -1,3 +1,3 @@
-Opinnaytetyo
+Opinnäytetyö
 ============
 fdf
