@@ -2,44 +2,36 @@
 
 
 
-
 # Github
 
 ### Markus Jylhänkangas
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Tieto- ja viestintätekniikan perustutkinto, Datanomi 
-
-
 
 Tornio, 2014
 
 
+
+-----------------
 Sisältö
 
-Johdanto	3
-Asiakastyytyväisyys	4
-Hiihtokeskus Ski Oy	4
-Asiakastyytyväisyyskysely	4
-Pohdinta	5
-Lähteet
-Liitteet
+[Johdanto]()
 
-Johdanto
+[Asiakastyytyväisyys]()
+
+[Hiihtokeskus Ski Oy]()
+
+[Asiakastyytyväisyyskysely]()	
+
+[Pohdinta]()
+
+[Lähteet]()
+
+[Liitteet]()
+
+------------
+
+## Johdanto
 
 1.1 Johdatus aiheeseen
 
@@ -51,7 +43,9 @@ Lukujen pääotsikot kirjoitetaan pienaakkosin 1 - 2 pistettä suuremmalla kirja
 
 1.2 Työn tavoitteet ja rajaus
 
-Asiakastyytyväisyys
+
+
+## Asiakastyytyväisyys
 
 1.3 Asiakastyytyväisyyden syntyminen
 
@@ -67,7 +61,9 @@ Hiihtokeskus Ski Oy
 
 1.8 Ski Oy:n markkinointi
 
-Asiakastyytyväisyyskysely
+
+
+## Asiakastyytyväisyyskysely
 
 1.9 Kyselyn tavoitteet
 
@@ -79,7 +75,9 @@ Asiakastyytyväisyyskysely
 
 1.11.2 Mielipiteet Ski Oy:stä
 
-Pohdinta
+
+
+## Pohdinta
 
 
 Noudata tarkasti opinnäytteen ohjeessa annettuja ohjeita - myös lähteiden ja liitteiden merkitsemisestä. Onnea ja menestystä työhön! 
