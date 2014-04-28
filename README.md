@@ -3,8 +3,7 @@
 
 
 
-
-# Ski Oy:n asiakastyytyväisyyskysely
+# Github
 
 ### Markus Jylhänkangas
 
