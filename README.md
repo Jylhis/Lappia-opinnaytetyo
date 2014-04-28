@@ -1,7 +1,6 @@
 
 
 
-
 # Github
 
 ### Markus Jylhänkangas
@@ -13,21 +12,21 @@ Tornio, 2014
 
 
 -----------------
-Sisältö
+#### Sisältö
 
-[Johdanto]()
+- [Johdanto]()
 
-[Asiakastyytyväisyys]()
+- [Asiakastyytyväisyys]()
 
-[Hiihtokeskus Ski Oy]()
+- [Hiihtokeskus Ski Oy]()
 
-[Asiakastyytyväisyyskysely]()	
+- [Asiakastyytyväisyyskysely]()	
 
-[Pohdinta]()
+- [Pohdinta]()
 
-[Lähteet]()
+- [Lähteet]()
 
-[Liitteet]()
+- [Liitteet]()
 
 ------------
 
