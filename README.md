@@ -4,12 +4,9 @@
 
 
 
-
 # Ski Oy:n asiakastyytyväisyyskysely
 
-## Opinnäytteen alaotsikko/tarkennus (tarvittaessa)
-
-### Tekijä 1
+### Markus Jylhänkangas
 
 
 
@@ -26,7 +23,7 @@
 
 
 
-Tutkinto, koulutusohjelma 
+Tieto- ja viestintätekniikan perustutkinto, Datanomi 
 
 
 
