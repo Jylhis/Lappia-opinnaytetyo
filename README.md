@@ -1,4 +1,4 @@
-# Github
+# Git ja GitHub
 
 ### Markus Jylhänkangas
 
@@ -101,27 +101,52 @@ $ git config --global credential.helper 'cache --timeout=3600'
 ```
 # Mikä on Github?
 
+
 ## Profiilin luominen
+Mene http://www.github.com/ :iin. Heti etusivulla on rekisteröinti lomake johon pitää laittaa käyttäjänimi, sähköposti ja salasana.
+
+Kun painat “Sign up for Github” painiketta päädyt kohtaan mistä voit valita haluatko ykstityisiä repoja (maksavat ~5€/kk ylöspäin), voit myös valita haluatko perustaa yrityksellesi profiilin (yritys tilin voi tehdä myös rekisteröinnin jälkeen).
+
+Nyt olet luonut profiilisi.
+
 
 ## Ensimmäinen Repo
+Sivun oikeassa laidassa on “New repository” painike, paina siitä.
+
+Seuraavaksi sinulta kysytään reposi nimeä, kuvausta, haluatko siitä julkisen vai yksityisen, tekeekö Github README tiedostoa (on suositeltavaa että valitset tämän), haluatko .gitignore tiedostoa, ja minkä lisenssin haluat.
+Vihdoin voit kloonata repon koneellesi kopioimalla oikeassa laidassa olevan osoitteen (“clone URL”), tai “Clone to Windows” painiketta jos olet windowsilla. Reposi tulee näkyviin koneellesi kansiona.
+
+### .gitignore
+Tähän tiedostoon voit lisätä tiedostojen ja kansiotten paikkoja. Git ei yritä lisätä näitä tiedostoja repoosi.
 
 # Projektin hallinta
+GitHub on loistava projektin hallinta työkalu. plapla
 
 ## Issues
+Issues:issä voit keskustella projektista ja ihmiset voivat ilmoittaa bugeista, ongelmista yms.
 
 ## Pull Requests
+Tänne tulee näkyviin kaikki pull requestit.
 
 ## Wiki
+Projektisi wiki sivu
 
 # GitHub Pages
+Voit luoda projektillesi nettisivut joko käyttäen GitHubin automaattista sivu generointia tai voit itse ladata omat sivut gh-pages branchiin.
 
+## Oman domainin käyttö
+Laita oma netti osoitteesi CNAME tiedostoon. ja sitten laita osoitteesi osoittamaan IP:hen.
 # Open-source projektien avustaminen
+Miten pull requestin tekeminen onnistuu ja miten auttaa muita projekteja
 
 ## Projektin "Fork":aaminen
+Miten Forkata projekteja
 
 ## Pull Requestin lähettäminen
+Miten lähettää pull request
 
 # Github Flow:n ymmärtäminen
+Mikä on GitHub flow.
 
 # Lähteet
 [Github help](http://help.github.com)
