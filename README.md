@@ -1,6 +1,6 @@
 # Git ja GitHub
 
-### Markus Jylhänkangas
+Markus Jylhänkangas
 
 Tieto- ja viestintätekniikan perustutkinto, Datanomi 
 
@@ -103,11 +103,11 @@ $ git config --global credential.helper 'cache --timeout=3600'
 
 
 ## Profiilin luominen
-Mene http://www.github.com/ :iin. Heti etusivulla on rekisteröinti lomake johon pitää laittaa käyttäjänimi, sähköposti ja salasana.
+Profiilin luominen on todella yksinkertaista:
 
-Kun painat “Sign up for Github” painiketta päädyt kohtaan mistä voit valita haluatko ykstityisiä repoja (maksavat ~5€/kk ylöspäin), voit myös valita haluatko perustaa yrityksellesi profiilin (yritys tilin voi tehdä myös rekisteröinnin jälkeen).
-
-Nyt olet luonut profiilisi.
+1. Avaa [GitHub](http://github.com) selaimellasi. Heti etusivulla sinua kohtaa rekisteröinti lomake jossa pyydetään käyttäjänimi, sähköposti ja salasana.
+2. Seuraavassa kohdassa voit valita suunnitelmasi ("plan"). Jos ajattelin aloittaa yksityisiä projekteja/repoja nämä maksavat ~5€/kk ylöspäin, voit myös perustaa organisaatiotilin. Yksityisiä repoja ja organisaatiotilejä voit ostaa/tehdä rekisteröinnin jälkeenkin.
+3. Profiilisi on valmis!
 
 
 ## Ensimmäinen Repo
