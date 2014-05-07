@@ -16,7 +16,7 @@ Tornio, 2014
 
 - [Mikä on GitHub?](#mikä-on-github)
 	- [Profiilin luominen](#profiilin-luominen)
-	- [Ensimmäinen Repo](#ensimmäinen-repo)
+	- [Repon luominen](#repon-luominen)
 
 - [Projektin hallinta](#projektin-hallinta)
 	- [Issues](#issues)
@@ -106,18 +106,18 @@ $ git config --global credential.helper 'cache --timeout=3600'
 Profiilin luominen on todella yksinkertaista:
 
 1. Avaa [GitHub](http://github.com) selaimellasi. Heti etusivulla sinua kohtaa rekisteröinti lomake jossa pyydetään käyttäjänimi, sähköposti ja salasana.
-2. Seuraavassa kohdassa voit valita suunnitelmasi ("plan"). Jos ajattelin aloittaa yksityisiä projekteja/repoja nämä maksavat ~5€/kk ylöspäin, voit myös perustaa organisaatiotilin. Yksityisiä repoja ja organisaatiotilejä voit ostaa/tehdä rekisteröinnin jälkeenkin.
-3. Profiilisi on valmis!
+2. Seuraavassa kohdassa voit valita suunnitelmasi ("plan"). Jos ajattelit aloittaa yksityisiä projekteja/repoja nämä maksavat ~5€/kk ylöspäin, voit myös perustaa organisaatiotilin. Yksityisiä repoja ja organisaatiotilejä voit ostaa/tehdä rekisteröinnin jälkeenkin.
+3. Ja kuin taikuutta, profiilisi on valmis!
 
 
-## Ensimmäinen Repo
-Sivun oikeassa laidassa on “New repository” painike, paina siitä.
+## Repon luominen
+Repo (repository) on kansio missä on kaikki projektisi tiedostot, koodi, dokumentaatio yms. (dokumentaatioon voit myös käyttää wikiä, lisää siitä myöhempänä). Repon voit luoda kahdella tavalla joko painamalla oikealla olevaa vihreää "New repository" nappulaa tai painamalla sivun ylälaidassa käyttäjänimesi oikealla puolella olevaa "+" nappulaa ja valitsemalla "New repository".
 
 Seuraavaksi sinulta kysytään reposi nimeä, kuvausta, haluatko siitä julkisen vai yksityisen, tekeekö Github README tiedostoa (on suositeltavaa että valitset tämän), haluatko .gitignore tiedostoa, ja minkä lisenssin haluat.
-Vihdoin voit kloonata repon koneellesi kopioimalla oikeassa laidassa olevan osoitteen (“clone URL”), tai “Clone to Windows” painiketta jos olet windowsilla. Reposi tulee näkyviin koneellesi kansiona.
+Jos haluat että ihmiset voivat vapaasti käyttää koodiasi suosittelen valitsemaan MIT lisenssin, se on lyhyt, yksinkertainen ja antaa paljon vapauksia. [Tämä](http://choosealicense.com/) sivusto auttaa lisenssin valitsemisessa.
+[.gitignore](https://github.com/github/gitignore) on tiedosto johon voit laittaa tiedostoja joita et halua laittaa repoosi eli nämä tiedostot pysyvät vain koneellasi (esim. .exe .o .dll jne.).
 
-### .gitignore
-Tähän tiedostoon voit lisätä tiedostojen ja kansiotten paikkoja. Git ei yritä lisätä näitä tiedostoja repoosi.
+Vihdoin voit kloonata repon koneellesi kopioimalla oikeassa laidassa olevan osoitteen (“clone URL”), tai “Clone to Windows” painiketta jos olet windowsilla. Reposi tulee näkyviin koneellesi kansiona.
 
 # Projektin hallinta
 GitHub on loistava projektin hallinta työkalu. plapla
@@ -132,10 +132,11 @@ Tänne tulee näkyviin kaikki pull requestit.
 Projektisi wiki sivu
 
 # GitHub Pages
-Voit luoda projektillesi nettisivut joko käyttäen GitHubin automaattista sivu generointia tai voit itse ladata omat sivut gh-pages branchiin.
+Voit luoda projektillesi nettisivut joko käyttäen GitHubin automaattista sivu generointia tai voit itse ladata omat sivut gh-pages branchiin. ILMAISEKSI. Omat sivut esim jylhis.github.io
 
 ## Oman domainin käyttö
 Laita oma netti osoitteesi CNAME tiedostoon. ja sitten laita osoitteesi osoittamaan IP:hen.
+
 # Open-source projektien avustaminen
 Miten pull requestin tekeminen onnistuu ja miten auttaa muita projekteja
 
