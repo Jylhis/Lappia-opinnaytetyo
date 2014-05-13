@@ -18,19 +18,11 @@ Tornio, 2014
 	- [Profiilin luominen](#profiilin-luominen)
 	- [Repon luominen](#repon-luominen)
 
-- [Projektin hallinta](#projektin-hallinta)
-	- [Issues](#issues)
-	- [Pull Requests](#pull-requests)
-	- [Wiki](#wiki)
-
 - [GiHub Pages](#github-pages)
 	- [Oman domainin käyttö](#oman-domainin-käyttö)
 
-- [Open-source projektien avustaminen](#open-source-projektin-avustaminen)
-	-[Projektin "Fork":aaminen](#projektin-forkaaminen)
-	-[Pull Requestin lähettäminen](#pull-requestin-lähettäminen)
-
-- [GitHub Flow:n ymmärtäminen](#github-flown-ymmärtäminen)
+-[Projektin "Fork":aaminen](#projektin-forkaaminen)
+-[Pull Requestin lähettäminen](#pull-requestin-lähettäminen)
 
 - [Lähteet](#lähteet)
 
@@ -119,31 +111,23 @@ Jos haluat että ihmiset voivat vapaasti käyttää koodiasi suosittelen valitse
 
 Vihdoin voit kloonata repon koneellesi kopioimalla oikeassa laidassa olevan osoitteen (“clone URL”), tai “Clone to Windows” painiketta jos olet windowsilla. Reposi tulee näkyviin koneellesi kansiona.
 
-# Projektin hallinta
-GitHub on loistava projektin hallinta työkalu. plapla
-
-## Issues
-Issues:issä voit keskustella projektista ja ihmiset voivat ilmoittaa bugeista, ongelmista yms.
-
-## Pull Requests
-Tänne tulee näkyviin kaikki pull requestit.
-
-## Wiki
-Projektisi wiki sivu
-
 # GitHub Pages
-Voit luoda projektillesi nettisivut joko käyttäen GitHubin automaattista sivu generointia tai voit itse ladata omat sivut gh-pages branchiin. ILMAISEKSI. Omat sivut esim jylhis.github.io
+Voit luoda ja julkaista GitHub sivuja käyttäen automaattista sivu generaattoria, tai voit tehdä sivut manuaalisesti ja push:ata sivun `gh-pages` branchiin. Projektien sivut julkaistaan vakiona osoitteessa `USERNAME.github.io/REPO-NAME`, voit myös määritellä sivun käyttämään [omaa domainia](#oman-domainin-käyttö). Jos luot repon nimeltä `USERNAME.github.io` kyseisen repon master branch julkaistaan vakiona osoitteessa `USERNAME.github.io`.
 
 ## Oman domainin käyttö
-Laita oma netti osoitteesi CNAME tiedostoon. ja sitten laita osoitteesi osoittamaan IP:hen.
+Voit määritellä oman domainin sivuille jos haluat. Tämä aika yksinkertaista:
+1. luo tiedosto nimeltä `CNAME` reposi juureen ja tiedoston sisälle ensimmäiselle riville kirjoita domainisi esim. `esimerkki.com` voit myös määritellä sivulle subdomainin esim. `sivu.esimerkki.com`.
+2. Seuraavaksi sinun pitää määritellä domainisi osoittamaan GitHubin servereihin (tämä ohje on [Namecheap:ille](http://namcheap.com), muilla domainin rekisteröinti palveluilla jotkin askeleet voivat olla hieman erinlaisia)
+	* kirjaudu namecheap:iin
+	* Mene domainisi asetuksiin
+	* vasemmalla valikosta valitse "All Host Records"
+	* `@` ja `www` kohtiin "IP ADDRESS/ URL" kohtaan laita ip osoitteeksi `199.27.76.133` ja record typeksi laita `A (Address)` ja TTL kohtaan laita `1800`
+Muutokset eivät tule heti voimaan mutta jonkin ajan kulutta sivusi pitäisi tulla näkyviin uudessa domainissasi
 
-# Open-source projektien avustaminen
-Miten pull requestin tekeminen onnistuu ja miten auttaa muita projekteja
-
-## Projektin "Fork":aaminen
+# Projektin "Fork":aaminen
 Miten Forkata projekteja
 
-## Pull Requestin lähettäminen
+# Pull Requestin lähettäminen
 Miten lähettää pull request
 
 # Github Flow:n ymmärtäminen
