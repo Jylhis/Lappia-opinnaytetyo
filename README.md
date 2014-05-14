@@ -21,8 +21,9 @@ Tornio, 2014
 - [GiHub Pages](#github-pages)
 	- [Oman domainin käyttö](#oman-domainin-käyttö)
 
--[Projektin "Fork":aaminen](#projektin-forkaaminen)
--[Pull Requestin lähettäminen](#pull-requestin-lähettäminen)
+- [Projektin "Fork":aaminen](#projektin-forkaaminen)
+
+- [Pull Requestin lähettäminen](#pull-requestin-lähettäminen)
 
 - [Lähteet](#lähteet)
 
@@ -124,7 +125,6 @@ Kun olet jonkin aikaa käyttänyt GitHubia, haluat ehkä auttaa jonkun toisen pr
 
 Fork toimii yhtenänlaisena siltana alkuperäisen repon ja sinun helkilökohtaisen repon välillä. Voit lähettää Pull Requesteja toisten ihmisten projekteihin.
 
-### Repon forkkaaminen
 Kun avaat onkin projektin GitHubissa sivun oikeassa yläreunassa näet "Fork" painikkeen. Tätä painamalla GitHub automaattisesti forkkaa kyseisestä reposta henkilökohtaisen repon sinulle. Tämän jälkeen voit kloonata oman reposi tietokoneellesi.
 
 #### Pull Requestin lähettäminen
