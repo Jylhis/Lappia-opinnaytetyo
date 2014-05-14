@@ -120,13 +120,22 @@ Voit määritellä oman domainin sivuille jos haluat. Tämä aika yksinkertaista
 2. Jos käytät haluat käyttää `www.esimerkki.com` tai `sub.esimerkki.com` muotoista domainia mitää sinun märitellä domainisi DNS osoittamaan |käyttäjänimi.github.io|CNAME| mutta jos haluat käytät `esimerkki.com` muotoista domaini pitää sinun määritellä DNS seuraavan laiseksi |199.27.76.133| A (Adress)|
 
 # Projektin "Fork":aaminen
-Miten Forkata projekteja
+Kun olet jonkin aikaa käyttänyt GitHubia, haluat ehkä auttaa jonkun toisen projektia tai ehkä haluat käyttää toisen projektia omasi lähtö pisteenä. Tätä prosessia kutsutaan forkkaamiseksi
 
-# Pull Requestin lähettäminen
-Miten lähettää pull request
+Fork toimii yhtenänlaisena siltana alkuperäisen repon ja sinun helkilökohtaisen repon välillä. Voit lähettää Pull Requesteja toisten ihmisten projekteihin.
 
-# Github Flow:n ymmärtäminen
-Mikä on GitHub flow.
+### Repon forkkaaminen
+Kun avaat onkin projektin GitHubissa sivun oikeassa yläreunassa näet "Fork" painikkeen. Tätä painamalla GitHub automaattisesti forkkaa kyseisestä reposta henkilökohtaisen repon sinulle. Tämän jälkeen voit kloonata oman reposi tietokoneellesi.
+
+#### Pull Requestin lähettäminen
+
+Pull Requestilla voit lähettää omat muutoksesi pää projektiin (projekti minkä forkkasit),kun olet lähettänyt pull requestin pää projektin ylläpitäjä ja muut kehittäjät voivat katsoa mitä muutoksia olet tehnyt ja voivat kommentoida pull requestiasi esim. tehdä joitain pieniä muutoksia. Kun muutoksesi hyväksytään ylläpitäjä voi lisätä muutoksesi pää projektiin napin painaluksella.
+1. mene forkkaamaasi repoon GitHubissa
+2. paina "Compare and Pull request" nappulaa
+3. tämä vie sinut sivulle missä voit otsikon ja vapaaehtoista lisätietoa muutoksista mitä olet tehnyt
+4. paina "Sen pull request"
+
+Tadaa! olet lähettänyt pull requestin!
 
 # Lähteet
 [Github help](http://help.github.com)
