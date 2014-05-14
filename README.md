@@ -116,13 +116,8 @@ Voit luoda ja julkaista GitHub sivuja käyttäen automaattista sivu generaattori
 
 ## Oman domainin käyttö
 Voit määritellä oman domainin sivuille jos haluat. Tämä aika yksinkertaista:
-1. luo tiedosto nimeltä `CNAME` reposi juureen ja tiedoston sisälle ensimmäiselle riville kirjoita domainisi esim. `esimerkki.com` voit myös määritellä sivulle subdomainin esim. `sivu.esimerkki.com`.
-2. Seuraavaksi sinun pitää määritellä domainisi osoittamaan GitHubin servereihin (tämä ohje on [Namecheap:ille](http://namcheap.com), muilla domainin rekisteröinti palveluilla jotkin askeleet voivat olla hieman erinlaisia)
-	* kirjaudu namecheap:iin
-	* Mene domainisi asetuksiin
-	* vasemmalla valikosta valitse "All Host Records"
-	* `@` ja `www` kohtiin "IP ADDRESS/ URL" kohtaan laita ip osoitteeksi `199.27.76.133` ja record typeksi laita `A (Address)` ja TTL kohtaan laita `1800`
-Muutokset eivät tule heti voimaan mutta jonkin ajan kulutta sivusi pitäisi tulla näkyviin uudessa domainissasi
+1. luo tiedosto nimeltä `CNAME` reposi juureen ja tiedoston sisälle ensimmäiselle riville kirjoita domainisi esim. `esimerkki.com`.
+2. Jos käytät haluat käyttää `www.esimerkki.com` tai `sub.esimerkki.com` muotoista domainia mitää sinun märitellä domainisi DNS osoittamaan |käyttäjänimi.github.io|CNAME| mutta jos haluat käytät `esimerkki.com` muotoista domaini pitää sinun määritellä DNS seuraavan laiseksi |199.27.76.133| A (Adress)|
 
 # Projektin "Fork":aaminen
 Miten Forkata projekteja
