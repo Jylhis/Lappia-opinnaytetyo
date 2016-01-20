@@ -145,3 +145,6 @@ Tadaa! olet lähettänyt pull requestin!
 [Wikipedia](http://wikipedia.com)
 
 [Git:in kotisivut](http://git-scm.com)
+
+----------------------------
+Copyright 2014 Markus Jylhänkangas
